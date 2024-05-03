@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tigo Pesa TZ Payment Process</title>
+    <title>Mchakato wa Malipo ya Tigo Pesa TZ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhQxTaGwGMrJL7WTg34tnStL-VIn2splqZDYAK4x9jQ&s'); /* Replace 'background_image.jpg' with your image file */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFhQxTaGwGMrJL7WTg34tnStL-VIn2splqZDYAK4x9jQ&s'); /* Badilisha 'background_image.jpg' na faili yako ya picha */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -18,7 +18,7 @@
             max-width: 600px;
             margin: 50px auto;
             padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            background-color: rgba(255, 255, 255, 0.8); /* Mandhari ya nyeupe yenye uwazi kidogo */
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -74,57 +74,58 @@
 </head>
 <body>
     <div class="container">
-        <h1>Tigo Pesa TZ Payment Process</h1>
+        <h1>Mchakato wa Malipo ya Tigo Pesa TZ</h1>
         <div class="payment-steps">
             <div class="step">
                 <span class="step-number">1.</span>
-                <span class="step-instruction">Dial <span class="highlight-digit">*150*01#</span> on your phone.</span>
+                <span class="step-instruction">Piga <span class="highlight-digit">*150*01#</span> kwenye simu yako.</span>
             </div>
             <div class="step">
                 <span class="step-number">2.</span>
-                <span class="step-instruction">Select "Send money".</span>
+                <span class="step-instruction">Chagua "Send Money".</span>
             </div>
             <div class="step">
                 <span class="step-number">3.</span>
-                <span class="step-instruction">Select "International transfer".</span>
+                <span class="step-instruction">Chagua "International Transfer".</span>
             </div>
             <div class="step">
                 <span class="step-number">4.</span>
-                <span class="step-instruction">Select "Kenya".</span>
+                <span class="step-instruction">Chagua "Kenya".</span>
             </div>
             <div class="step">
                 <span class="step-number">5.</span>
-                <span class="step-instruction">Select "Safaricom mpesa".</span>
+                <span class="step-instruction">Chagua "Safaricom Mpesa".</span>
             </div>
             <div class="step">
                 <span class="step-number">6.</span>
-                <span class="step-instruction">Enter the recipient's phone number: <span class="highlight-digit">+254728849294</span>.</span>
+                <span class="step-instruction">Weka namba ya simu ya mpokeaji: <span class="highlight-digit">+254728849294</span>.</span>
             </div>
             <div class="step">
                 <span class="step-number">7.</span>
-                <span class="step-instruction">Enter recipient's name: <span class="highlight-digit">joshua</span>.</span>
+                <span class="step-instruction">Weka jina la mpokeaji: <span class="highlight-digit">Joshua</span>.</span>
             </div>
         </div>
 
-        <!-- Additional instructions for users -->
+        <!-- Maagizo zaidi kwa watumiaji -->
         <div class="instructions">
-            <p>After making the payment, please click the "Done" button to confirm your payment.</p>
-            <p>If you need more information or assistance on how to make a payment, click the "Get Help" button.</p>
+            <p>Baada ya kulipa, tafadhali bonyeza kitufe cha "Done" ili kuthibitisha malipo yako.</p>
+            <p>Kama unahitaji msaada au taarifa zaidi kuhusu jinsi ya kulipa, bonyeza kitufe cha "Get Help".</p>
         </div>
 
-        <!-- Buttons -->
+        <!-- Vifungo -->
         <div class="btn-container">
-            <button class="btn" onclick="sendMessage('I have paid')">Done</button>
-            <button class="btn" onclick="sendMessage('How will I pay')">Get Help</button>
+            <button class="btn" onclick="sendMessage('Nimelipa na tigo')">Done</button>
+            <button class="btn" onclick="sendMessage('Nitawezaje kulipa na tigo')">Get Help</button>
         </div>
     </div>
 
-    <!-- JavaScript for sending WhatsApp messages -->
+    <!-- JavaScript kwa ajili ya kutuma ujumbe wa WhatsApp -->
     <script>
         function sendMessage(message) {
             var encodedMessage = encodeURIComponent(message);
-            window.location.href = `https://wa.me/254115086765/?text=${encodedMessage}`;
+            window.location.href = `https://wa.me/254106163844/?text=${encodedMessage}`;
         }
     </script>
 </body>
 </html>
+
